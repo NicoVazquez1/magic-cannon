@@ -1,0 +1,510 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1684529689676547, "dur": 12251777, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529689677439, "dur": 11322, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529689688764, "dur": 355492, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529690044260, "dur": 2405999, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529692450262, "dur": 9476740, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529701927009, "dur": 1311, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529701930970, "dur": 71, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1684529692070036, "dur": 353611, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684529692071673, "dur": 74249, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684529692397904, "dur": 7043, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684529692404950, "dur": 18684, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684529692406046, "dur": 16501, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684529692431747, "dur": 2071, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1684529692430582, "dur": 3305, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529701931190, "dur": 1014, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684529692595354, "dur":11030, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529692606395, "dur":443, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684529692606858, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684529692606879, "dur":573, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684529692607488, "dur":950, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529692608438, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701745717, "dur":937, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746654, "dur":121, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746775, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746781, "dur":53, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746835, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746838, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746877, "dur":34, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746911, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746938, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746941, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746968, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746971, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746996, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701746999, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701747026, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701747030, "dur":26, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701747056, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701747070, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701759326, "dur":55888, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684529692607585, "dur":872, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529692608462, "dur":3141, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529692611613, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684529692611622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529692613422, "dur":456, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684529692613884, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684529692614134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529692614546, "dur":13002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1684529692627551, "dur":893143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684529693520702, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529693520718, "dur":3645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684529693524400, "dur":4451490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529697975897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529697975908, "dur":39118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698015060, "dur":232587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698247655, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529698247761, "dur":2266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698250051, "dur":238888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698488947, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529698488961, "dur":6569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698495560, "dur":86573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698582150, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529698582166, "dur":78812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698661006, "dur":117786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698778800, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529698778814, "dur":2757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698781601, "dur":102487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698884094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529698884107, "dur":11624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529698895762, "dur":469234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529699365003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529699365016, "dur":5552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529699370605, "dur":859191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529700229804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529700229819, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529700233224, "dur":277142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529700510374, "dur":357, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529700510834, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529700514142, "dur":671922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529701186071, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684529701186086, "dur":2789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684529701188905, "dur":556818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529692607676, "dur":828, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529692608505, "dur":3288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529692611794, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684529692611848, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529692614927, "dur":83773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684529692698730, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1684529692698789, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529692698799, "dur":540112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1684529693238937, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684529693238979, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529693239193, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1684529693243947, "dur":276747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684529693520701, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529693520718, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1684529693523299, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1684529693523350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529693523359, "dur":186273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1684529693709659, "dur":1168420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684529694878085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529694878094, "dur":3002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff.exe" }}
+,{ "pid":12345, "tid":2, "ts":1684529694881126, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1684529694881189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529694881967, "dur":60693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1684529694942689, "dur":1029501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529695972198, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529695975902, "dur":5602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529695981546, "dur":141264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696122818, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529696123051, "dur":22926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696146008, "dur":144617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696290633, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529696290644, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696292453, "dur":218237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696510697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529696510709, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696512804, "dur":278902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696791714, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529696791728, "dur":4709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696796468, "dur":73915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696870391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529696870404, "dur":2123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696872555, "dur":72797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696945359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529696945371, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529696947313, "dur":66347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697013667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529697013678, "dur":1658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697015358, "dur":345732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697361098, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529697361111, "dur":3456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697364595, "dur":73706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697438309, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529697438323, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697440193, "dur":190103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697630305, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529697630323, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697632951, "dur":35224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697668182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529697668193, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697669935, "dur":204999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697874942, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529697874955, "dur":103066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529697978051, "dur":62321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698040379, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529698040392, "dur":15294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698055718, "dur":208865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698264590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529698264602, "dur":33893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698298522, "dur":42478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698341007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529698341018, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698342536, "dur":164387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698506931, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529698506946, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698509600, "dur":72234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698581843, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529698581858, "dur":77103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529698658995, "dur":795486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529699454488, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529699454502, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529699456839, "dur":692663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529700149510, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529700149525, "dur":7803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529700157355, "dur":1011841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529701169211, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684529701169237, "dur":7823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684529701177120, "dur":568586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529692607648, "dur":842, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529692608491, "dur":3229, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529692611720, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684529692611785, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529692613683, "dur":6268807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684529698882532, "dur":482110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684529699364650, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529699364664, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684529699366720, "dur":783875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684529700150602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529700150614, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684529700155076, "dur":536112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684529700691194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529700691206, "dur":5187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684529700696425, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684529700696456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529700696466, "dur":3433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684529700699929, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684529700700075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684529700700085, "dur":2817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684529700702927, "dur":1042776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529692607764, "dur":752, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529692608516, "dur":3122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529692611638, "dur":715776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684529693327420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529693327450, "dur":105820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684529693433311, "dur":87560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684529693520878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529693520893, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1684529693524045, "dur":2884168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696408220, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529696408261, "dur":9229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696417518, "dur":101293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696518818, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529696518829, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696520776, "dur":81595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696602377, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529696602388, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696604044, "dur":144932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696748987, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529696749006, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696751656, "dur":91733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696843517, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529696843547, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529696846299, "dur":210545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697056851, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697056863, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697058529, "dur":61349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697119886, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697119896, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697121971, "dur":77503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697199482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697199495, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697201379, "dur":134466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697335852, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697335865, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697337856, "dur":103004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697440866, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697440879, "dur":1541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697442446, "dur":77766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697520221, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697520233, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697522963, "dur":44953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697567924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697567937, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697569464, "dur":39453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697608924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697608938, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697610904, "dur":42190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697653101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697653112, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697655379, "dur":81679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697737066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697737079, "dur":2329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697739459, "dur":71986, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697811452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697811464, "dur":64933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697876421, "dur":73948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697950375, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529697950387, "dur":27465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529697977877, "dur":233859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698211744, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529698211757, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698214494, "dur":101027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698315528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529698315541, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698317669, "dur":171117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698488793, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529698488805, "dur":5748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698494585, "dur":333718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698828310, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529698828324, "dur":40841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529698869240, "dur":478731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529699347978, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529699347991, "dur":9007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529699357022, "dur":701000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529700058031, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529700058046, "dur":2808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529700060885, "dur":99358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529700160249, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529700160260, "dur":19366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529700179659, "dur":328430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529700508097, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529700508111, "dur":2377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529700510532, "dur":1229138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529701739676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684529701739688, "dur":5944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684529701745664, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":4, "ts":1684529701745668, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529692607843, "dur":684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529692608527, "dur":3108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529692611635, "dur":909383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1684529693521025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529693521058, "dur":2413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1684529693523508, "dur":2471447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529695994963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529695995146, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529695999325, "dur":131332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696130665, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529696130678, "dur":16062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696146775, "dur":163464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696310246, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529696310258, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696311993, "dur":102230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696414231, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529696414243, "dur":1527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696415794, "dur":111644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696527444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529696527457, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696529471, "dur":119409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696648887, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529696648900, "dur":10681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696659623, "dur":130433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696790064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529696790077, "dur":5098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696795220, "dur":159597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696954823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529696954834, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529696956607, "dur":80903, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697037517, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529697037529, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697038966, "dur":236654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697275626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529697275671, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697277885, "dur":245862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697523753, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529697523767, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697525803, "dur":46415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697572225, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529697572238, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697574639, "dur":56655, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697631301, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529697631390, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697633146, "dur":104501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697737651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529697737660, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697740258, "dur":124285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697864550, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529697864563, "dur":112813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529697977408, "dur":83638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698061052, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698061064, "dur":83184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698144273, "dur":68427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698212705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698212714, "dur":3609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698216355, "dur":69051, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698285414, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698285429, "dur":15116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698300575, "dur":186139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698486724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698486738, "dur":2358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698489129, "dur":112310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698601446, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698601458, "dur":58138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698659628, "dur":75145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698734781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698734795, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698737910, "dur":48945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698786863, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698786877, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698789242, "dur":39261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698828511, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529698828525, "dur":68220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529698896782, "dur":1261959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529700158758, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529700158797, "dur":13236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529700172063, "dur":408710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529700580781, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529700580795, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684529700583391, "dur":19836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1684529700603236, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529700603969, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1684529700605682, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684529700605710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529700605835, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1684529700607584, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1684529700607610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529700607618, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1684529700610132, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684529700610159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529700610168, "dur":51227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684529700661424, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684529700661452, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684529700661468, "dur":74894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/level0.resS" }}
+,{ "pid":12345, "tid":5, "ts":1684529700736393, "dur":1009352, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529692607905, "dur":632, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529692608537, "dur":3067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529692611613, "dur":709694, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1684529693321314, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529693321492, "dur":111568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1684529693433096, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684529693433156, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529693433169, "dur":25091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1684529693458286, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1684529693458366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529693458376, "dur":145606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1684529693604012, "dur":3914023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684529697518043, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529697518055, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684529697521800, "dur":66555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697588364, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529697588378, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697590208, "dur":59814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697650028, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529697650040, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697651784, "dur":124959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697776752, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529697776877, "dur":2728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697779635, "dur":196195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697975837, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529697975851, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529697978612, "dur":60901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698039521, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698039535, "dur":15993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698055561, "dur":156092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698211660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698211672, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698215925, "dur":42722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698258654, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698258668, "dur":41700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698300506, "dur":174671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698475187, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698475202, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698476700, "dur":60779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698537487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698537499, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698540143, "dur":125540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698665691, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698665775, "dur":2499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698668302, "dur":56414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698724724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698724738, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698726535, "dur":89166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698815724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698815738, "dur":6823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698822591, "dur":42329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698864927, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529698864939, "dur":30842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529698895814, "dur":614468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529699510291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529699510305, "dur":1978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529699512309, "dur":638046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700150362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529700150375, "dur":5332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700155737, "dur":268794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700424539, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529700424554, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700426623, "dur":109294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700535925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529700535967, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700539360, "dur":150801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700690167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529700690178, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684529700691979, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1684529700692002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684529700692009, "dur":15996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1684529700708032, "dur":1037676, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529692608030, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529692608548, "dur":3085, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529692611634, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684529692611731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529692613575, "dur":96098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684529692709703, "dur":617792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684529693327502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529693327523, "dur":105752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684529693433312, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684529693433381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529693433394, "dur":5449207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1684529698882636, "dur":455455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529699338099, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529699338112, "dur":16631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529699354772, "dur":195904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529699550684, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529699550697, "dur":33206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529699583930, "dur":511840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529700095778, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529700095793, "dur":56447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529700152267, "dur":1036609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529701188880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684529701188892, "dur":11757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684529701200688, "dur":545034, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529692608100, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529692608559, "dur":3077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529692611638, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684529692611778, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529692613500, "dur":625194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1684529693238725, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684529693238783, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529693238794, "dur":5643580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684529698882411, "dur":651198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684529699533725, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529699533742, "dur":43346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684529699577118, "dur":558395, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684529700135521, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529700135536, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684529700137505, "dur":508966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684529700646481, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529700646498, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684529700649519, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684529700649549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529700649560, "dur":9021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1684529700658610, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1684529700658768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529700658778, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1684529700660664, "dur":26103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1684529700686775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529700686788, "dur":9804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1684529700696626, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1684529700696657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684529700696666, "dur":4816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Nico/Desktop/Juegos/Cannon shoot stuff_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1684529700701511, "dur":1044203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684529701839936, "dur":2680, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1684529701932310, "dur": 1795, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1684529701930932, "dur": 3216, "ph": "X", "name": "Write chrome-trace events", "args": {} },

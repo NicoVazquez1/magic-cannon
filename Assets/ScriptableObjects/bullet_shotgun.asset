@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04f0fc8a1a74be948921dda1bdf5ffeb, type: 3}
+  m_Name: bullet_shotgun
+  m_EditorClassIdentifier: 
+  ID: 1
+  name: Shotgun
+  ammo: 500
+  defaultAmmo: 800
+  power: 10
+  radius: 1
+  upForce: 0
+  RateOfFire: 30
+  spread: 1
+  reloadTime: 1.5
+  icon: {fileID: 0}
+  shootingSound: {fileID: 8300000, guid: c529a31fccbb80841b409626f82522d9, type: 3}
+  explotionAnimation: {fileID: 1000012142692022, guid: a475880e7da0e9548aa05cb7933752cd, type: 3}
+  explotionSound: {fileID: 0}
+  model: {fileID: 1493771790842282086, guid: f0bd8f77698264e468b961a37e044a47, type: 3}

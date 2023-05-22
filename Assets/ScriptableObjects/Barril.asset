@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8f03c0de7225984e968cae9533d84de, type: 3}
+  m_Name: Barril
+  m_EditorClassIdentifier: 
+  ID: 0
+  name: Barrel
+  description: 
+  icon: {fileID: 0}
+  DestructionSound: {fileID: 8300000, guid: cfafb353d5f1394409c71bfb62792f96, type: 3}
+  model: {fileID: 1905790104263264, guid: bb630fb359001064ca586127ec844200, type: 3}
+  DestructionAnimation: {fileID: 1025285306637258, guid: d8f0099df63275647a8bcf646df1ca00, type: 3}
+  particle: {fileID: 8211741829296158037, guid: bf0c6117bea4a254db89f2761557bd6a, type: 3}
